@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: fd4096cfd7cfaf24a9b05ebae6686199
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _MatcapAdd: {fileID: 2800000, guid: 7b6c994ca124f7844933ff29a828e014, type: 3}
+  - _NormalMap: {fileID: 2800000, guid: bcace47d828d6584ca2e497db46da532, type: 3}
+  - _Matcap: {fileID: 2800000, guid: a8f3ce92e0cae2340828d272f5ed6854, type: 3}
+  - _Diffuse: {fileID: 2800000, guid: dece56f96937a38409c05ec12d763248, type: 3}
+  - _RampTex: {fileID: 2800000, guid: 617568684d4604945b0e1e0268720cd6, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
