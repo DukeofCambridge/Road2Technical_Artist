@@ -1,4 +1,4 @@
-# Road to Techinical Artist
+# Road to Technical Artist
 Creative Rendering Solution for Characters, Scenes &amp; VFX &amp; Tool Development
 | Solution   | Result | Description | Key Techniques |
 | ----------- |---| ----------- | ---|
