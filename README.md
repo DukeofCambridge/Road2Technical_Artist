@@ -3,7 +3,7 @@ Creative Rendering Solution for Characters, Scenes &amp; VFX &amp; Tool Developm
 | Solution   | Result | Description | Key Techniques |
 | ----------- |---| ----------- | ---|
 |      ||        | |
-| Fresnel-like Effects   |<a href="#beetle">Beetle</a>| Fresnel Effect is the effect of differing reflectance on a surface depending on viewing angle, where as you approach the grazing angle more light is reflected.   |1. Calculate the angle between the surface normal and the view direction. Use the cosine value(clamped to [0,1]) to sample a gradient ramp.<br/> 2.Adopt material captures to provide view-dependent visual effects.   |
+| Fresnel-like Effects   |<a href="#beetle">Beetle</a>| Fresnel Effect is the effect of differing reflectance on a surface depending on viewing angle, where as you approach the grazing angle more light is reflected.   |1. Calculate the angle between the surface normal and the view direction. Use the cosine value(clamped to [0,1]) to sample a gradient ramp.<br/> 2. Adopt material captures to provide view-dependent visual effects.   |
 
 
 <a name="beetle">Fresnel-like effects on a beetle</a>
