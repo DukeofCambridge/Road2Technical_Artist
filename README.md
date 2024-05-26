@@ -1,5 +1,4 @@
 # Road to Technical Artist
-Creative Rendering Solution for Characters, Scenes &amp; VFX &amp; Tool Development
 
 ## <a name="contents">Contents</a>
 | Solution   | Result | Description | Key Techniques |
