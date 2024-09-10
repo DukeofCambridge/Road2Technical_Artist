@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b791d1f18940f3c4397d089585bdf42f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Sand_Water: {fileID: 2800000, guid: 311992eb0de996446a684dae69e9b75e, type: 3}
+  - _Sand_Land: {fileID: 2800000, guid: 1fcc8780175d07c49a009b3f76c63ee6, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

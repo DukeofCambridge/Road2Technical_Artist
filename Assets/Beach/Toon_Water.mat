@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Toon_Water
+  m_Shader: {fileID: 4800000, guid: 9096ee92ac05f6549a5b2fe958abdcd4, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticTex:
+        m_Texture: {fileID: 2800000, guid: 72417ee6f632e4e4aabc8c81143957bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: 72417ee6f632e4e4aabc8c81143957bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 2aab2b9fb283e6646ad7f1df2f799dc1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CausticIntensity: 8
+    - _CausticRange: 2
+    - _CausticScale: 8
+    - _CausticsIntensity: 3
+    - _CausticsRange: 1
+    - _CausticsScale: 8
+    - _CsusticScale: 8
+    - _Cutoff: 0.5
+    - _DeepRange: 4
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FoamBlend: 0.076
+    - _FoamDissolve: 1
+    - _FoamFrequency: 25
+    - _FoamRange: 4
+    - _FoamSpeed: -2
+    - _FoamWidth: -0.44
+    - _FresnelPower: 20
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 3
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectDistort: 1
+    - _ReflectDistortion: 1
+    - _ReflectIntensity: 0.8
+    - _ReflectPower: 5
+    - _ReflectionIntensity: 0.3
+    - _ReflectionPower: 3
+    - _ShoreEdgeIntensity: 0.333
+    - _ShoreEdgeWidth: 0.324
+    - _ShoreRange: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UnderWaterDistort: 1
+    - _UnderwaterDistortion: 1
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _CausticSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _CausticsSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.098038875, g: 0.38823494, b: 0.7254902, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 0.3882353}
+    - _FoamNoiseSize: {r: 10, g: 40, b: 0, a: 0}
+    - _FresnelColor: {r: 0.011764706, g: 0.34117612, b: 0.98431367, a: 0}
+    - _NormalSpeed: {r: -10, g: 0, b: 0, a: 0}
+    - _ShallowColor: {r: 0.12156824, g: 0.7490196, b: 0.7333333, a: 0.45882353}
+    - _ShoreColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+    - _WaveASpeedXYSteepnesswavelength: {r: 0, g: -1, b: 1.6, a: 50}
+    - _WaveB: {r: -0.5, g: -0.5, b: 1.6, a: 30}
+    - _WaveC: {r: 1, g: 0.5, b: 1, a: 20}
+    - _WaveColor: {r: 0.3098039, g: 0.5333333, b: 0.7921569, a: 1}
+  m_BuildTextureStacks: []
